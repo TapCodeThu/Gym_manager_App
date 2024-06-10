@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047260166045",
+    "project_id": "gymmanager-49783",
+    "storage_bucket": "gymmanager-49783.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047260166045:android:cd38a162bf79d6967be174",
+        "android_client_info": {
+          "package_name": "com.example.gym_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyXJARPWosUoewLGVfpkvhjmwtLr9hxzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
