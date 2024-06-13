@@ -60,5 +60,10 @@ dependencies {
     implementation ("com.facebook.shimmer:shimmer:0.1.0@aar")
     implementation("com.github.MikeOrtiz:TouchImageView:1.4.1")
 
+    implementation ("com.nex3z:notification-badge:1.0.4")
+
+    implementation("androidx.room:room-runtime:2.6.1")
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
+
 
 }

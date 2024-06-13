@@ -4,14 +4,34 @@ public class User {
     private String userId;
     private String email;
     private String password;
+    private String url_avatar;
+    private String name_gym;
 
     public User() {
     }
+
+
 
     public User(String email, String password) {
 
         this.email = email;
         this.password = password;
+    }
+
+    public String getUrl_avatar() {
+        return url_avatar;
+    }
+
+    public void setUrl_avatar(String url_avatar) {
+        this.url_avatar = url_avatar;
+    }
+
+    public String getName_gym() {
+        return name_gym;
+    }
+
+    public void setName_gym(String name_gym) {
+        this.name_gym = name_gym;
     }
 
     public String getUserId() {

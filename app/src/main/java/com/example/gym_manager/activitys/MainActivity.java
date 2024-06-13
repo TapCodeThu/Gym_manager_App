@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.white));
+        getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.green));
 
         navController = Navigation.findNavController(this, R.id.fragment_container);
         NavigationUI.setupWithNavController(binding.bottomNavigationView, navController);

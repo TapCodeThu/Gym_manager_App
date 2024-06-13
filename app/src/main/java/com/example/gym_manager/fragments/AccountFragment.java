@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.gym_manager.R;
+import com.example.gym_manager.activitys.HistorySellActivity;
 import com.example.gym_manager.activitys.SettingActivity;
 import com.example.gym_manager.databinding.FragmentAccountBinding;
 
@@ -37,6 +38,11 @@ public class AccountFragment extends Fragment {
         });
         binding.btnBack.setOnClickListener(v->{
             requireActivity().onBackPressed();
+        });
+
+        binding.historySell.setOnClickListener(v->{
+            startActivity(new Intent(requireActivity(), HistorySellActivity.class));
+
         });
     }
 }

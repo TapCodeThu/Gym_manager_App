@@ -109,7 +109,7 @@ public class MemberFragment extends Fragment implements SwipeRefreshLayout.OnRef
             filteredList.addAll(mList);
         } else {
             for (Member member : mList) {
-                if (member.getName().toLowerCase().contains(query.toLowerCase()) ||
+                if (member.getName().toLowerCase().contains(query.toLowerCase().trim()) ||
                         member.getPhone().contains(query)) {
                     filteredList.add(member);
                 }
